@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #18254e;
+}
+
+h1{
+  color:white;
+}
+
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+P{
+  color:white;
+}
+
+h3{
+  color:white;
+}
+
+h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li{
+  color:white;
+}
+
+li{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+  color: #f0ecfe;
+}
+
+a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top{
+  background-color: #443d7b;
+  border: 2px solid #bbb6dd;
+}
+
+.middle{
+  background-color: #443d7b;
+  border: 2px solid #bbb6dd;
+}
+
+.bottom{
+  background-color: #443d7b;
+  border: 2px solid #bbb6dd;
+}
+
+a:hover{
+  background-color: #10172e;
+  color: antiquewhite;
+}
+
+h1:hover{
+  color: antiquewhite;
+}
+
+h3:hover{
+  color: antiquewhite;
+}
+
+p:hover{
+  color: antiquewhite;
+}
+
+li:hover{
+  color: antiquewhite;
+}
+
+.top:hover {
+  background-color: #bb8181;
+  border: 2px solid #e4cdcd;
+}
+
+.middle:hover {
+  background-color: #bb8181;
+  border: 2px solid #e4cdcd;
+}
+
+.bottom:hover {
+  background-color: #bb8181;
+  border: 2px solid #e4cdcd;
+  rotate: 360deg; 
+    transition: rotate 2s;
+}
+
+div{
+  margin: 10px;
+  padding: 10px;
+}
+
+nav a:hover{
+  background-color: #a35c5c;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+}
+
+@keyframes happy{
+  
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.bottom:hover{
+  animation-name: happy;
+  animation-duration: 2s;
+}
+
+.drawing:hover {
+  background-color: #bb8181;
+  border: 2px solid #e4cdcd;
+}
+
+.drawing{
+  background-color: #443d7b;
+  border: 2px solid #bbb6dd;
+}
+
+.reading:hover {
+  background-color: #bb8181;
+  border: 2px solid #e4cdcd;
+}
+
+.reading{
+  background-color: #443d7b;
+  border: 2px solid #bbb6dd;
+}
