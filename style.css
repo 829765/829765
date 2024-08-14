@@ -93,10 +93,9 @@ li:hover{
 .bottom:hover {
   background-color: #bb8181;
   border: 2px solid #e4cdcd;
-}
-
   rotate: 360deg; 
     transition: rotate 2s;
+}
 
 div{
   margin: 10px;
